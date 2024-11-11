@@ -14,7 +14,7 @@ sudo apt install libgoogle-perftools-dev graphviz
 ```
 Assuming you have Go installed, get `pprof` from:
 ```
-go install github.com/google/pprof@latest
+go install github.com/google/pprof@latest, for more information, see [pprof documentation](https://github.com/google/pprof).
 ```
 Depending on your shell, edit the corresponding configuration file to
 add the Go binary path (`$HOME/go/bin`) to your `PATH`.
